@@ -36,3 +36,6 @@ node_modules/
 *.log
 .env*
 !.env.example
+
+# Vendored read-only references — re-syncable via `vpr sync:repos`; not committed (CityOS subtree cleanup)
+.repos/
