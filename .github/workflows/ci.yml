@@ -47,7 +47,7 @@ jobs:
 
       - name: Verify declared upstream boundary
         run: |
-          node --test scripts/upstream/integration.test.mjs
+          node --test scripts/upstream/*.test.mjs
           node scripts/upstream/integration.mjs
 
       - name: Setup Rust
