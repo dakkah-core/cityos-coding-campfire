@@ -41,3 +41,6 @@ node_modules/
 .repos/
 # Local upstream qualification evidence.
 .build/
+
+# Local CityOS tooling state
+/.cityos/
