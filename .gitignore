@@ -44,3 +44,19 @@ node_modules/
 
 # Local CityOS tooling state
 /.cityos/
+
+# BEGIN CityOS supervised repository-ignore v1 (disposable root-local state)
+/*.py[cod]
+/.env
+/.env.local
+/.env.*.local
+!/.env.example
+!/.env.*.example
+!/.env.example.*
+!/.env.sample
+!/.env.*.sample
+!/.env.sample.*
+!/.env.template
+!/.env.*.template
+!/.env.template.*
+# END CityOS supervised repository-ignore v1
